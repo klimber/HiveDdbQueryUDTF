@@ -1,0 +1,2 @@
+string1	1	1.11	true	["1","2"]	{"fieldstring":"Val1","fieldbigint":1}	{"one":1.0,"two":2.0}	{"one":"One","two":"Two"}	["stringSetV1","stringSetV2"]	[1.0,1.11]	NULL
+string2	2	2.22	false	["3","4"]	{"fieldstring":"Val2","fieldbigint":2}	{"four":4.0,"three":3.0}	{"four":"Four","three":"Three"}	["stringSetV3","stringSetV4"]	[2.0,2.22]	NULL

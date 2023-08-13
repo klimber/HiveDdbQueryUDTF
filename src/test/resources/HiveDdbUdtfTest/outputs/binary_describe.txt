@@ -1,0 +1,2 @@
+field_binary	binary	
+field_binary_set	array<binary>	

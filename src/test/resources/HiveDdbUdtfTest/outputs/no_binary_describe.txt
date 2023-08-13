@@ -1,0 +1,11 @@
+field_string	string	
+field_bigint	bigint	
+field_double	double	
+field_boolean	boolean	
+field_list_string	array<string>	
+field_struct	struct<fieldstring:string,fieldbigint:bigint>	
+field_map_of_numbers	map<string,double>	
+field_map_of_strings	map<string,string>	
+field_string_set	array<string>	
+field_number_set	array<double>	
+field_null	string	
