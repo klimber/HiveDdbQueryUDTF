@@ -1,5 +1,7 @@
 # HiveDdbQueryUDTF
 
+![main](https://github.com/klimber/HiveDdbQueryUDTF/actions/workflows/maven.yml/badge.svg?branch=main)
+
 Welcome to HiveDdbQueryUDTF, an [Apache Hive](https://hive.apache.org/) user defined table function 
 ([UDTF](https://cwiki.apache.org/confluence/display/Hive/DeveloperGuide+UDTF)) that allows 
 [querying](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html) an
