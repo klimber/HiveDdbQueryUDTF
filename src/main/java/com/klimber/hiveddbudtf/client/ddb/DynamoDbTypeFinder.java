@@ -7,9 +7,9 @@ import org.apache.hadoop.hive.dynamodb.type.HiveDynamoDBType;
 import org.apache.hadoop.hive.dynamodb.type.HiveDynamoDBTypeFactory;
 
 /**
- * AWS SDKv2 has a <a
- * href="https://sdk.amazonaws.com/java/api/latest/software/amazon/awssdk/services/dynamodb/model/AttributeValue
- * .html#type()">type</a> method to help discover which kind of attribute was returned from the API. This method does
+ * AWS SDKv2 has a
+ * <a href="https://sdk.amazonaws.com/java/api/latest/software/amazon/awssdk/services/dynamodb/model/AttributeValue.html#type()">type</a>
+ * method to help discover which kind of attribute was returned from the API. This method does
  * not exist on SDKv1, so we have to rely on checking null fields.
  */
 @UtilityClass

@@ -34,7 +34,7 @@ fetch the required results.
 
 ## EMR Versions
 
-* HiveDdbQueryUDTF 0.9.0 was written to work with EMR release 5.32+
+* HiveDdbQueryUDTF 1.x.y was written to work with EMR release 5.32+
 * EMR release 6+ is still not supported, but should be coming soon. 
 
 ## How to use
@@ -47,7 +47,7 @@ First, the HiveDdbQueryUDTF jar should be available to your EMR cluster, either 
 `usr/lib/hive/auxlib/` or calling `add jar` during SQL execution.
 
 ```sql
-add jar s3://<your-bucket>/path/to/hiveddbudtf-0.9.0-SNAPSHOT.jar;
+add jar s3://<your-bucket>/path/to/hiveddbudtf-x.y.z.jar;
 ```
 
 Second, initialize HiveDdbQueryUdtf as a function, you can choose the function name
